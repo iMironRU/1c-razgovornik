@@ -1,70 +1,56 @@
 # ─────────────────────────────────────────────
-#  ИДЕНТИФИКАЦИЯ КНИГИ
+# ИДЕНТИФИКАЦИЯ КНИГИ
 # ─────────────────────────────────────────────
-title: "Название вашей книги"
-subtitle: "Подзаголовок (необязательно)"
-author: "Имя Автора"
-author_url: "https://github.com/ваш-профиль"
-language: ru                  # ru | en
+title: "1С как иностранный язык"
+subtitle: "Для тех, кто уже умеет программировать"
+author: "Александр Мирошниченко"
+author_url: "https://github.com/iMironRU"
+language: ru
 license: "CC BY 4.0"
 
-# Версия книги (SemVer: MAJOR.MINOR.PATCH)
-# MAJOR — структурная реорганизация, смена концепции
-# MINOR — новые главы или значительная переработка
-# PATCH — исправления, уточнения, опечатки
 version: "0.1.0"
 
 # ─────────────────────────────────────────────
-#  ОТСЛЕЖИВАНИЕ ШАБЛОНА
+# ОТСЛЕЖИВАНИЕ ШАБЛОНА
 # ─────────────────────────────────────────────
 template_repo: "https://github.com/iMironRU/book-template"
 template_version: "v0.1.0"
 
 # ─────────────────────────────────────────────
-#  ФОРМАТЫ ВЫПУСКА
+# ФОРМАТЫ ВЫПУСКА
 # ─────────────────────────────────────────────
 formats:
-  epub:       true    # EPUB для читалок
-  fb2:        true    # FB2 для читалок
-  pdf_a5:     true    # PDF формат A5 (основной для чтения)
-  pdf_a4:     false   # PDF формат A4 (для печати)
-  html:       true    # HTML — один самодостаточный файл
-  docx:       true    # DOCX стандарт
-  docx_a4:    false   # DOCX A4 с полями под печать
-  site:       true    # Сайт на GitHub Pages (mdBook)
+  epub:     true
+  fb2:      true
+  pdf_a5:   true
+  pdf_a4:   false
+  html:     true
+  docx:     true
+  docx_a4:  false
+  site:     true
 
-# Фильтр статуса для сборки:
-#   ready   — только главы со статусом ready
-#   review  — ready + review
-#   all     — все главы, черновики помечаются баннером
 release_filter: "review"
 nightly_filter: "all"
 
 # ─────────────────────────────────────────────
-#  ДОПОЛНИТЕЛЬНЫЕ АРТЕФАКТЫ В РЕЛИЗ
+# ДОПОЛНИТЕЛЬНЫЕ АРТЕФАКТЫ
 # ─────────────────────────────────────────────
 artifacts: []
-# - type: zip
-#   source: "code/"
-#   name: "code-examples"
-# - type: file
-#   source: "configuration/releases/book.cf"
-#   name: "demo"
 
 # ─────────────────────────────────────────────
-#  САЙТ (GitHub Pages)
+# САЙТ (GitHub Pages)
 # ─────────────────────────────────────────────
-site_url: "https://ваш-профиль.github.io/ваш-репозиторий"
+site_url: "https://iMironRU.github.io/1c-inostrannyy-yazyk"
 
 # ─────────────────────────────────────────────
-#  НОЧНЫЕ СБОРКИ
+# НОЧНЫЕ СБОРКИ
 # ─────────────────────────────────────────────
 nightly:
   enabled: true
   branch: "main"
 
 # ─────────────────────────────────────────────
-#  PDF — ПАРАМЕТРЫ СТРАНИЦЫ
+# PDF — ПАРАМЕТРЫ СТРАНИЦЫ
 # ─────────────────────────────────────────────
 pdf:
   font_main: "PT Serif"
