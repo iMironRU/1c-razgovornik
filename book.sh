@@ -521,7 +521,8 @@ print(m.group(1) if m else 'ready')
 
             local rel="${file}"
             local module; module=$(echo "$file" | cut -d/ -f2)
-            local title_line; title_line=$(grep -m1 "^# " "$file" 2>/dev/null | sed 's/^# //')
+            # `|| true` — параграфы без H1 (`# …`) под set -euo pipefail иначе валят скрипт
+            local title_line; title_line=$(grep -m1 "^# " "$file" 2>/dev/null | sed 's/^# //' || true)
             [[ -z "$title_line" ]] && title_line=$(basename "${file%.md}" | sed 's/^[0-9-]*_*//')
 
             if [[ "$module" != "$prev_module" ]]; then
