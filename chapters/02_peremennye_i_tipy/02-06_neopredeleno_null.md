@@ -1,5 +1,5 @@
 ---
-status: draft
+status: review
 ---
 
 ## § 2.6 Неопределено и Null

@@ -1,5 +1,5 @@
 ---
-status: draft
+status: review
 ---
 
 ## § 0.1 Для кого эта книга

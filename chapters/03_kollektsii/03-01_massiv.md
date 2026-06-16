@@ -1,5 +1,5 @@
 ---
-status: draft
+status: review
 ---
 
 ## § 3.1 Массив
