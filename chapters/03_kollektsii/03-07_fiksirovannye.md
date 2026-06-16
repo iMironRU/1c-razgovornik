@@ -1,5 +1,5 @@
 ---
-status: draft
+status: review
 ---
 
 ## § 3.7 Фиксированные коллекции

@@ -1,5 +1,5 @@
 ---
-status: draft
+status: review
 ---
 
 ## § 1.2 Архитектура как части речи

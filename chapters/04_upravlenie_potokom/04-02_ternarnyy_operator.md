@@ -1,5 +1,5 @@
 ---
-status: draft
+status: review
 ---
 
 ## § 4.2 Тернарный оператор

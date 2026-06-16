@@ -1,5 +1,5 @@
 ---
-status: draft
+status: review
 ---
 
 ## § 4.7 Переход

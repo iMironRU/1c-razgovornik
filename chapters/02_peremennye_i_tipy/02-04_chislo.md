@@ -1,5 +1,5 @@
 ---
-status: draft
+status: review
 ---
 
 ## § 2.4 Число

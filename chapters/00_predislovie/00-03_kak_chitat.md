@@ -1,5 +1,5 @@
 ---
-status: draft
+status: review
 ---
 
 ## § 0.3 Как читать эту книгу
