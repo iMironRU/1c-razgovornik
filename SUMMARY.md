@@ -43,6 +43,12 @@
 ## Глава 4. Управление потоком
 
 - [§ 4.1 Условный оператор](chapters/04_upravlenie_potokom/04-01_uslovnyy_operator.md)
+- [§ 4.2 Тернарный оператор](chapters/04_upravlenie_potokom/04-02_ternarnyy_operator.md)
+- [§ 4.3 Цикл со счётчиком](chapters/04_upravlenie_potokom/04-03_cikl_dlya_po.md)
+- [§ 4.4 Цикл по коллекции](chapters/04_upravlenie_potokom/04-04_cikl_dlya_kazhdogo.md)
+- [§ 4.5 Цикл «Пока»](chapters/04_upravlenie_potokom/04-05_cikl_poka.md)
+- [§ 4.6 Прервать и Продолжить](chapters/04_upravlenie_potokom/04-06_prervat_prodolzhit.md)
+- [§ 4.7 Переход](chapters/04_upravlenie_potokom/04-07_perekhod.md)
 
 ---
 
