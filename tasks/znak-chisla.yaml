@@ -1,0 +1,31 @@
+title: "Знак числа"
+chapter: "04_upravlenie_potokom"
+section: "4.2"
+book_url: "https://imiron.ru/1c-razgovornik/chapters/04_upravlenie_potokom/04-02_ternarnyy_operator.html"
+difficulty: easy
+tags: ["тернарный оператор"]
+statement: |
+  Напиши функцию `Знак(Ч)`: она возвращает `-1` для отрицательного числа,
+  `1` для положительного и `0` для нуля.
+
+  Здесь пригодится тернарный оператор `?(условие, тогда, иначе)` — и его
+  можно вложить один в другой.
+starter: |
+  Функция Знак(Ч) Экспорт
+      Возврат ?( , , );
+  КонецФункции
+hints:
+  - "Внешний `?()` отделяет ноль, внутренний — знак."
+tests:
+  - kind: call
+    name: "положительное"
+    invoke: "Знак(7)"
+    expect: "1"
+  - kind: call
+    name: "отрицательное"
+    invoke: "Знак(-3)"
+    expect: "-1"
+  - kind: call
+    name: "ноль"
+    invoke: "Знак(0)"
+    expect: "0"

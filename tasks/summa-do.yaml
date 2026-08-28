@@ -1,0 +1,38 @@
+title: "Сумма до N"
+chapter: "04_upravlenie_potokom"
+section: "4.3"
+book_url: "https://imiron.ru/1c-razgovornik/chapters/04_upravlenie_potokom/04-03_cikl_dlya_po.html"
+difficulty: intro
+tags: ["цикл", "счётчик"]
+statement: |
+  Напиши функцию `СуммаДо(Н)` — она складывает все целые числа от 1 до Н
+  включительно и возвращает результат.
+
+  `СуммаДо(5)` — это 1 + 2 + 3 + 4 + 5, то есть 15.
+
+  Если Н меньше единицы, складывать нечего: верни 0.
+starter: |
+  Функция СуммаДо(Н) Экспорт
+      // Твой код
+  КонецФункции
+hints:
+  - "Заведи накопитель до цикла и прибавляй к нему на каждом проходе."
+  - "В `Для Сч = 1 По Н` верхняя граница входит в диапазон — Сч дойдёт до Н."
+tests:
+  - kind: call
+    name: "до пяти"
+    invoke: "СуммаДо(5)"
+    expect: "15"
+  - kind: call
+    name: "единица"
+    invoke: "СуммаДо(1)"
+    expect: "1"
+  - kind: call
+    name: "ноль — складывать нечего"
+    invoke: "СуммаДо(0)"
+    expect: "0"
+  - kind: call
+    name: "отрицательное"
+    invoke: "СуммаДо(-3)"
+    expect: "0"
+    hidden: true

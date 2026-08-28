@@ -1,0 +1,44 @@
+title: "Скидка по порогам"
+chapter: "04_upravlenie_potokom"
+section: "4.1"
+book_url: "https://imiron.ru/1c-razgovornik/chapters/04_upravlenie_potokom/04-01_uslovnyy_operator.html"
+difficulty: easy
+tags: ["условие", "ИначеЕсли"]
+statement: |
+  Напиши функцию `Скидка(Сумма)`, возвращающую долю скидки:
+
+  - сумма больше 1000 — скидка `0.10`;
+  - больше 500, но не больше 1000 — `0.05`;
+  - остальное — `0`.
+
+  Границы важны: ровно 1000 — это ещё не «больше 1000».
+starter: |
+  Функция Скидка(Сумма) Экспорт
+      // Твой код
+  КонецФункции
+hints:
+  - "Порядок ветвей имеет значение: проверяй сначала больший порог."
+  - "«Больше» — это `>`, а не `>=`. Ровно 1000 попадает в среднюю ветвь."
+tests:
+  - kind: call
+    name: "дорогая покупка"
+    invoke: "Скидка(1500)"
+    expect: "0.1"
+  - kind: call
+    name: "средняя"
+    invoke: "Скидка(700)"
+    expect: "0.05"
+  - kind: call
+    name: "мелкая"
+    invoke: "Скидка(100)"
+    expect: "0"
+  - kind: call
+    name: "ровно на границе"
+    invoke: "Скидка(1000)"
+    expect: "0.05"
+    hidden: true
+  - kind: call
+    name: "ровно на нижней границе"
+    invoke: "Скидка(500)"
+    expect: "0"
+    hidden: true
