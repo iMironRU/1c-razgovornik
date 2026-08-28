@@ -58,3 +58,13 @@ pdf:
   font_size: "11pt"
   margin_a5: "top=20mm,right=15mm,bottom=20mm,left=20mm"
   margin_a4: "top=25mm,right=20mm,bottom=25mm,left=25mm"
+
+# ─────────────────────────────────────────────
+#  НАЗВАНИЯ ГЛАВ (заголовки разделов в SUMMARY)
+# ─────────────────────────────────────────────
+modules:
+  00_predislovie: "Глава 0. Предисловие"
+  01_priroda_yazyka: "Глава 1. Природа языка"
+  02_peremennye_i_tipy: "Глава 2. Переменные и примитивные типы"
+  03_kollektsii: "Глава 3. Коллекции"
+  04_upravlenie_potokom: "Глава 4. Управление потоком"
