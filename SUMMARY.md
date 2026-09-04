@@ -2,83 +2,74 @@
 
 - [О книге](README.md)
 
-## Глава 0. Предисловие
+- [Глава 0. Предисловие]()
+  - [§ 0.1. Для кого эта книга](chapters/00_predislovie/00-01_dlya_kogo.md)
+  - [§ 0.2. О природе языковых различий](chapters/00_predislovie/00-02_priroda_razlichiy.md)
+  - [§ 0.3. Как читать эту книгу](chapters/00_predislovie/00-03_kak_chitat.md)
 
-- [🔍 § 0.1. Для кого эта книга](chapters/00_predislovie/00-01_dlya_kogo.md)
-- [🔍 § 0.2. О природе языковых различий](chapters/00_predislovie/00-02_priroda_razlichiy.md)
-- [🔍 § 0.3. Как читать эту книгу](chapters/00_predislovie/00-03_kak_chitat.md)
+- [Глава 1. Природа языка]()
+  - [§ 1.1. Парадигма: язык описания деловой системы](chapters/01_priroda_yazyka/01-01_paradigma.md)
+  - [§ 1.2. Архитектура как части речи](chapters/01_priroda_yazyka/01-02_arxitektura.md)
+  - [§ 1.3. Типизация: мягкая, но не безграничная](chapters/01_priroda_yazyka/01-03_tipizaciya.md)
+  - [§ 1.4. Типы модулей: вместо файлов и пакетов](chapters/01_priroda_yazyka/01-04_tipy_moduley.md)
+  - [§ 1.5. Контекст выполнения: клиент и сервер в одном файле](chapters/01_priroda_yazyka/01-05_kontekst.md)
+  - [§ 1.6. Директивы препроцессора](chapters/01_priroda_yazyka/01-06_preprocessor.md)
 
-## Глава 1. Природа языка
+- [Глава 2. Переменные и примитивные типы]()
+  - [§ 2.1. Переменные: объявление и область видимости](chapters/02_peremennye_i_tipy/02-01_peremennye.md)
+  - [§ 2.2. Примитивные типы: обзор](chapters/02_peremennye_i_tipy/02-02_tipy_obzor.md)
+  - [§ 2.3. Строка](chapters/02_peremennye_i_tipy/02-03_stroka.md)
+  - [§ 2.4. Число](chapters/02_peremennye_i_tipy/02-04_chislo.md)
+  - [§ 2.5. Булево](chapters/02_peremennye_i_tipy/02-05_bulevo.md)
+  - [§ 2.6. Неопределено и Null](chapters/02_peremennye_i_tipy/02-06_neopredeleno_null.md)
+  - [§ 2.7. Дата](chapters/02_peremennye_i_tipy/02-07_data.md)
 
-- [🔍 § 1.1. Парадигма: язык описания деловой системы](chapters/01_priroda_yazyka/01-01_paradigma.md)
-- [🔍 § 1.2. Архитектура как части речи](chapters/01_priroda_yazyka/01-02_arxitektura.md)
-- [🔍 § 1.3. Типизация: мягкая, но не безграничная](chapters/01_priroda_yazyka/01-03_tipizaciya.md)
-- [🔍 § 1.4. Типы модулей: вместо файлов и пакетов](chapters/01_priroda_yazyka/01-04_tipy_moduley.md)
-- [🔍 § 1.5. Контекст выполнения: клиент и сервер в одном файле](chapters/01_priroda_yazyka/01-05_kontekst.md)
-- [🔍 § 1.6. Директивы препроцессора](chapters/01_priroda_yazyka/01-06_preprocessor.md)
+- [Глава 3. Коллекции]()
+  - [§ 3.1. Массив](chapters/03_kollektsii/03-01_massiv.md)
+  - [§ 3.2. Структура](chapters/03_kollektsii/03-02_struktura.md)
+  - [§ 3.3. Соответствие](chapters/03_kollektsii/03-03_sootvetstvie.md)
+  - [§ 3.4. Список значений](chapters/03_kollektsii/03-04_spisok.md)
+  - [§ 3.5. Таблица значений](chapters/03_kollektsii/03-05_tablitsa.md)
+  - [§ 3.6. Дерево значений](chapters/03_kollektsii/03-06_derevo.md)
+  - [§ 3.7. Фиксированные коллекции](chapters/03_kollektsii/03-07_fiksirovannye.md)
+  - [§ 3.8. Как выбрать коллекцию](chapters/03_kollektsii/03-08_kak_vybrat.md)
 
-## Глава 2. Переменные и примитивные типы
+- [Глава 4. Управление потоком]()
+  - [§ 4.1. Условный оператор](chapters/04_upravlenie_potokom/04-01_uslovnyy_operator.md)
+  - [§ 4.2. Тернарный оператор](chapters/04_upravlenie_potokom/04-02_ternarnyy_operator.md)
+  - [§ 4.3. Цикл со счётчиком](chapters/04_upravlenie_potokom/04-03_cikl_dlya_po.md)
+  - [§ 4.4. Цикл по коллекции](chapters/04_upravlenie_potokom/04-04_cikl_dlya_kazhdogo.md)
+  - [§ 4.5. Цикл «Пока»](chapters/04_upravlenie_potokom/04-05_cikl_poka.md)
+  - [§ 4.6. Прервать и Продолжить](chapters/04_upravlenie_potokom/04-06_prervat_prodolzhit.md)
+  - [§ 4.7. Переход](chapters/04_upravlenie_potokom/04-07_perekhod.md)
 
-- [🔍 § 2.1. Переменные: объявление и область видимости](chapters/02_peremennye_i_tipy/02-01_peremennye.md)
-- [🔍 § 2.2. Примитивные типы: обзор](chapters/02_peremennye_i_tipy/02-02_tipy_obzor.md)
-- [🔍 § 2.3. Строка](chapters/02_peremennye_i_tipy/02-03_stroka.md)
-- [🔍 § 2.4. Число](chapters/02_peremennye_i_tipy/02-04_chislo.md)
-- [🔍 § 2.5. Булево](chapters/02_peremennye_i_tipy/02-05_bulevo.md)
-- [🔍 § 2.6. Неопределено и Null](chapters/02_peremennye_i_tipy/02-06_neopredeleno_null.md)
-- [🔍 § 2.7. Дата](chapters/02_peremennye_i_tipy/02-07_data.md)
+- [Глава 5. Процедуры и функции]()
+  - [§ 5.1. Процедура и функция — почему их две](chapters/05_procedury_i_funkcii/05-01_procedura_i_funkciya.md)
+  - [§ 5.2. Параметры: по ссылке, пока не сказано иначе](chapters/05_procedury_i_funkcii/05-02_parametry_znach.md)
+  - [§ 5.3. Значения по умолчанию и пропуск параметров](chapters/05_procedury_i_funkcii/05-03_znacheniya_po_umolchaniyu.md)
+  - [§ 5.4. `Экспорт` — вся модель видимости](chapters/05_procedury_i_funkcii/05-04_eksport.md)
+  - [§ 5.5. Чего нет у вас — и что при этом есть у платформы](chapters/05_procedury_i_funkcii/05-05_chego_net.md)
+  - [§ 5.6. Обработчики событий — это хуки](chapters/05_procedury_i_funkcii/05-06_obrabotchiki_sobytiy.md)
+  - [§ 5.7. Как прочитать чужую процедуру](chapters/05_procedury_i_funkcii/05-07_kak_prochitat_chuzhuyu.md)
 
-## Глава 3. Коллекции
+- [Глава 6. Обработка ошибок]()
+  - [§ 6.1. Попытка, Исключение — и никакого `finally`](chapters/06_obrabotka_oshibok/06-01_popytka_isklyuchenie.md)
+  - [§ 6.2. Ловится всё сразу: фильтра по типу нет](chapters/06_obrabotka_oshibok/06-02_lovitsya_vsyo.md)
+  - [§ 6.3. `ВызватьИсключение`: бросать научились раньше, чем ловить](chapters/06_obrabotka_oshibok/06-03_vyzvat_isklyuchenie.md)
+  - [§ 6.4. Что можно узнать о пойманном](chapters/06_obrabotka_oshibok/06-04_informaciya_ob_oshibke.md)
+  - [§ 6.5. Транзакции: конструкция, которой снаружи нет](chapters/06_obrabotka_oshibok/06-05_tranzakcii.md)
 
-- [🔍 § 3.1. Массив](chapters/03_kollektsii/03-01_massiv.md)
-- [🔍 § 3.2. Структура](chapters/03_kollektsii/03-02_struktura.md)
-- [🔍 § 3.3. Соответствие](chapters/03_kollektsii/03-03_sootvetstvie.md)
-- [🔍 § 3.4. Список значений](chapters/03_kollektsii/03-04_spisok.md)
-- [🔍 § 3.5. Таблица значений](chapters/03_kollektsii/03-05_tablitsa.md)
-- [🔍 § 3.6. Дерево значений](chapters/03_kollektsii/03-06_derevo.md)
-- [🔍 § 3.7. Фиксированные коллекции](chapters/03_kollektsii/03-07_fiksirovannye.md)
-- [🔍 § 3.8. Как выбрать коллекцию](chapters/03_kollektsii/03-08_kak_vybrat.md)
+- [Глава 7. Асинхронность]()
+  - [§ 7.1. Откуда она здесь взялась](chapters/07_asinhronnost/07-01_otkuda_vzyalas.md)
+  - [§ 7.2. `ОписаниеОповещения`: колбэки, которые вы встретите](chapters/07_asinhronnost/07-02_opisanie_opoveshcheniya.md)
+  - [§ 7.3. `Асинх`, `Ждать` и `Обещание`](chapters/07_asinhronnost/07-03_asinh_zhdat.md)
+  - [§ 7.4. Это не про параллелизм](chapters/07_asinhronnost/07-04_ne_pro_parallelizm.md)
+  - [§ 7.5. Фоновые задания: вот где параллелизм](chapters/07_asinhronnost/07-05_fonovye_zadaniya.md)
 
-## Глава 4. Управление потоком
-
-- [🔍 § 4.1. Условный оператор](chapters/04_upravlenie_potokom/04-01_uslovnyy_operator.md)
-- [🔍 § 4.2. Тернарный оператор](chapters/04_upravlenie_potokom/04-02_ternarnyy_operator.md)
-- [🔍 § 4.3. Цикл со счётчиком](chapters/04_upravlenie_potokom/04-03_cikl_dlya_po.md)
-- [🔍 § 4.4. Цикл по коллекции](chapters/04_upravlenie_potokom/04-04_cikl_dlya_kazhdogo.md)
-- [🔍 § 4.5. Цикл «Пока»](chapters/04_upravlenie_potokom/04-05_cikl_poka.md)
-- [🔍 § 4.6. Прервать и Продолжить](chapters/04_upravlenie_potokom/04-06_prervat_prodolzhit.md)
-- [🔍 § 4.7. Переход](chapters/04_upravlenie_potokom/04-07_perekhod.md)
-
-## Глава 5. Процедуры и функции
-
-- [✏️ § 5.1. Процедура и функция — почему их две (черновик)](chapters/05_procedury_i_funkcii/05-01_procedura_i_funkciya.md)
-- [✏️ § 5.2. Параметры: по ссылке, пока не сказано иначе (черновик)](chapters/05_procedury_i_funkcii/05-02_parametry_znach.md)
-- [✏️ § 5.3. Значения по умолчанию и пропуск параметров (черновик)](chapters/05_procedury_i_funkcii/05-03_znacheniya_po_umolchaniyu.md)
-- [✏️ § 5.4. `Экспорт` — вся модель видимости (черновик)](chapters/05_procedury_i_funkcii/05-04_eksport.md)
-- [✏️ § 5.5. Чего нет у вас — и что при этом есть у платформы (черновик)](chapters/05_procedury_i_funkcii/05-05_chego_net.md)
-- [✏️ § 5.6. Обработчики событий — это хуки (черновик)](chapters/05_procedury_i_funkcii/05-06_obrabotchiki_sobytiy.md)
-- [✏️ § 5.7. Как прочитать чужую процедуру (черновик)](chapters/05_procedury_i_funkcii/05-07_kak_prochitat_chuzhuyu.md)
-
-## Глава 6. Обработка ошибок
-
-- [✏️ § 6.1. Попытка, Исключение — и никакого `finally` (черновик)](chapters/06_obrabotka_oshibok/06-01_popytka_isklyuchenie.md)
-- [✏️ § 6.2. Ловится всё сразу: фильтра по типу нет (черновик)](chapters/06_obrabotka_oshibok/06-02_lovitsya_vsyo.md)
-- [✏️ § 6.3. `ВызватьИсключение`: бросать научились раньше, чем ловить (черновик)](chapters/06_obrabotka_oshibok/06-03_vyzvat_isklyuchenie.md)
-- [✏️ § 6.4. Что можно узнать о пойманном (черновик)](chapters/06_obrabotka_oshibok/06-04_informaciya_ob_oshibke.md)
-- [✏️ § 6.5. Транзакции: конструкция, которой снаружи нет (черновик)](chapters/06_obrabotka_oshibok/06-05_tranzakcii.md)
-
-## Глава 7. Асинхронность
-
-- [✏️ § 7.1. Откуда она здесь взялась (черновик)](chapters/07_asinhronnost/07-01_otkuda_vzyalas.md)
-- [✏️ § 7.2. `ОписаниеОповещения`: колбэки, которые вы встретите (черновик)](chapters/07_asinhronnost/07-02_opisanie_opoveshcheniya.md)
-- [✏️ § 7.3. `Асинх`, `Ждать` и `Обещание` (черновик)](chapters/07_asinhronnost/07-03_asinh_zhdat.md)
-- [✏️ § 7.4. Это не про параллелизм (черновик)](chapters/07_asinhronnost/07-04_ne_pro_parallelizm.md)
-- [✏️ § 7.5. Фоновые задания: вот где параллелизм (черновик)](chapters/07_asinhronnost/07-05_fonovye_zadaniya.md)
-
-## Глава 8. Объекты вместо классов
-
-- [✏️ § 8.1. Классов нет, а объекты есть (черновик)](chapters/08_obekty/08-01_klassov_net.md)
-- [✏️ § 8.2. Ссылка и объект: различение, которого нет больше нигде (черновик)](chapters/08_obekty/08-02_ssylka_i_obekt.md)
-- [✏️ § 8.3. Менеджер: статика без класса (черновик)](chapters/08_obekty/08-03_menedzher.md)
-- [✏️ § 8.4. Что на самом деле делает `Новый` (черновик)](chapters/08_obekty/08-04_novyy.md)
-- [✏️ § 8.5. Чем заменяют объект на ходу (черновик)](chapters/08_obekty/08-05_struktura_vmesto_obekta.md)
-- [✏️ § 8.6. Где лежит код незнакомого объекта (черновик)](chapters/08_obekty/08-06_kak_prochitat_obekt.md)
+- [Глава 8. Объекты вместо классов]()
+  - [§ 8.1. Классов нет, а объекты есть](chapters/08_obekty/08-01_klassov_net.md)
+  - [§ 8.2. Ссылка и объект: различение, которого нет больше нигде](chapters/08_obekty/08-02_ssylka_i_obekt.md)
+  - [§ 8.3. Менеджер: статика без класса](chapters/08_obekty/08-03_menedzher.md)
+  - [§ 8.4. Что на самом деле делает `Новый`](chapters/08_obekty/08-04_novyy.md)
+  - [§ 8.5. Чем заменяют объект на ходу](chapters/08_obekty/08-05_struktura_vmesto_obekta.md)
+  - [§ 8.6. Где лежит код незнакомого объекта](chapters/08_obekty/08-06_kak_prochitat_obekt.md)
