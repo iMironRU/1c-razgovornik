@@ -1,5 +1,5 @@
 ---
-status: draft
+status: review
 ---
 
 # § 8.1. Классов нет, а объекты есть

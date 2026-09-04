@@ -1,5 +1,5 @@
 ---
-status: draft
+status: review
 ---
 
 # § 7.4. Это не про параллелизм

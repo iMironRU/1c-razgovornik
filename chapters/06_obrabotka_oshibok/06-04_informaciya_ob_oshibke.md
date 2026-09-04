@@ -1,5 +1,5 @@
 ---
-status: draft
+status: review
 ---
 
 # § 6.4. Что можно узнать о пойманном

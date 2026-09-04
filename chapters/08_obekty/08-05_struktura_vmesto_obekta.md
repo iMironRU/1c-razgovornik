@@ -1,5 +1,5 @@
 ---
-status: draft
+status: review
 ---
 
 # § 8.5. Чем заменяют объект на ходу
