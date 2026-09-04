@@ -65,3 +65,11 @@
 - [✏️ § 6.3. `ВызватьИсключение`: бросать научились раньше, чем ловить (черновик)](chapters/06_obrabotka_oshibok/06-03_vyzvat_isklyuchenie.md)
 - [✏️ § 6.4. Что можно узнать о пойманном (черновик)](chapters/06_obrabotka_oshibok/06-04_informaciya_ob_oshibke.md)
 - [✏️ § 6.5. Транзакции: конструкция, которой снаружи нет (черновик)](chapters/06_obrabotka_oshibok/06-05_tranzakcii.md)
+
+## Глава 7. Асинхронность
+
+- [✏️ § 7.1. Откуда она здесь взялась (черновик)](chapters/07_asinhronnost/07-01_otkuda_vzyalas.md)
+- [✏️ § 7.2. `ОписаниеОповещения`: колбэки, которые вы встретите (черновик)](chapters/07_asinhronnost/07-02_opisanie_opoveshcheniya.md)
+- [✏️ § 7.3. `Асинх`, `Ждать` и `Обещание` (черновик)](chapters/07_asinhronnost/07-03_asinh_zhdat.md)
+- [✏️ § 7.4. Это не про параллелизм (черновик)](chapters/07_asinhronnost/07-04_ne_pro_parallelizm.md)
+- [✏️ § 7.5. Фоновые задания: вот где параллелизм (черновик)](chapters/07_asinhronnost/07-05_fonovye_zadaniya.md)

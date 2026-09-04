@@ -72,3 +72,4 @@ modules:
   04_upravlenie_potokom: "Глава 4. Управление потоком"
   05_procedury_i_funkcii: "Глава 5. Процедуры и функции"
   06_obrabotka_oshibok: "Глава 6. Обработка ошибок"
+  07_asinhronnost: "Глава 7. Асинхронность"
