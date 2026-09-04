@@ -47,3 +47,13 @@
 - [🔍 § 4.5. Цикл «Пока»](chapters/04_upravlenie_potokom/04-05_cikl_poka.md)
 - [🔍 § 4.6. Прервать и Продолжить](chapters/04_upravlenie_potokom/04-06_prervat_prodolzhit.md)
 - [🔍 § 4.7. Переход](chapters/04_upravlenie_potokom/04-07_perekhod.md)
+
+## Глава 5. Процедуры и функции
+
+- [✏️ § 5.1. Процедура и функция — почему их две (черновик)](chapters/05_procedury_i_funkcii/05-01_procedura_i_funkciya.md)
+- [✏️ § 5.2. Параметры: по ссылке, пока не сказано иначе (черновик)](chapters/05_procedury_i_funkcii/05-02_parametry_znach.md)
+- [✏️ § 5.3. Значения по умолчанию и пропуск параметров (черновик)](chapters/05_procedury_i_funkcii/05-03_znacheniya_po_umolchaniyu.md)
+- [✏️ § 5.4. `Экспорт` — вся модель видимости (черновик)](chapters/05_procedury_i_funkcii/05-04_eksport.md)
+- [✏️ § 5.5. Чего нет: перегрузка, лямбды, замыкания (черновик)](chapters/05_procedury_i_funkcii/05-05_chego_net.md)
+- [✏️ § 5.6. Обработчики событий: сигнатуру пишете не вы (черновик)](chapters/05_procedury_i_funkcii/05-06_obrabotchiki_sobytiy.md)
+- [✏️ § 5.7. Как прочитать чужую процедуру (черновик)](chapters/05_procedury_i_funkcii/05-07_kak_prochitat_chuzhuyu.md)
