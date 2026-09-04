@@ -73,3 +73,12 @@
 - [✏️ § 7.3. `Асинх`, `Ждать` и `Обещание` (черновик)](chapters/07_asinhronnost/07-03_asinh_zhdat.md)
 - [✏️ § 7.4. Это не про параллелизм (черновик)](chapters/07_asinhronnost/07-04_ne_pro_parallelizm.md)
 - [✏️ § 7.5. Фоновые задания: вот где параллелизм (черновик)](chapters/07_asinhronnost/07-05_fonovye_zadaniya.md)
+
+## Глава 8. Объекты вместо классов
+
+- [✏️ § 8.1. Классов нет, а объекты есть (черновик)](chapters/08_obekty/08-01_klassov_net.md)
+- [✏️ § 8.2. Ссылка и объект: различение, которого нет больше нигде (черновик)](chapters/08_obekty/08-02_ssylka_i_obekt.md)
+- [✏️ § 8.3. Менеджер: статика без класса (черновик)](chapters/08_obekty/08-03_menedzher.md)
+- [✏️ § 8.4. Что на самом деле делает `Новый` (черновик)](chapters/08_obekty/08-04_novyy.md)
+- [✏️ § 8.5. Чем заменяют объект на ходу (черновик)](chapters/08_obekty/08-05_struktura_vmesto_obekta.md)
+- [✏️ § 8.6. Где лежит код незнакомого объекта (черновик)](chapters/08_obekty/08-06_kak_prochitat_obekt.md)
