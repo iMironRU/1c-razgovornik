@@ -57,3 +57,11 @@
 - [✏️ § 5.5. Чего нет у вас — и что при этом есть у платформы (черновик)](chapters/05_procedury_i_funkcii/05-05_chego_net.md)
 - [✏️ § 5.6. Обработчики событий — это хуки (черновик)](chapters/05_procedury_i_funkcii/05-06_obrabotchiki_sobytiy.md)
 - [✏️ § 5.7. Как прочитать чужую процедуру (черновик)](chapters/05_procedury_i_funkcii/05-07_kak_prochitat_chuzhuyu.md)
+
+## Глава 6. Обработка ошибок
+
+- [✏️ § 6.1. Попытка, Исключение — и никакого `finally` (черновик)](chapters/06_obrabotka_oshibok/06-01_popytka_isklyuchenie.md)
+- [✏️ § 6.2. Ловится всё сразу: фильтра по типу нет (черновик)](chapters/06_obrabotka_oshibok/06-02_lovitsya_vsyo.md)
+- [✏️ § 6.3. `ВызватьИсключение`: бросать научились раньше, чем ловить (черновик)](chapters/06_obrabotka_oshibok/06-03_vyzvat_isklyuchenie.md)
+- [✏️ § 6.4. Что можно узнать о пойманном (черновик)](chapters/06_obrabotka_oshibok/06-04_informaciya_ob_oshibke.md)
+- [✏️ § 6.5. Транзакции: конструкция, которой снаружи нет (черновик)](chapters/06_obrabotka_oshibok/06-05_tranzakcii.md)
