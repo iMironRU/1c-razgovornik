@@ -54,6 +54,6 @@
 - [✏️ § 5.2. Параметры: по ссылке, пока не сказано иначе (черновик)](chapters/05_procedury_i_funkcii/05-02_parametry_znach.md)
 - [✏️ § 5.3. Значения по умолчанию и пропуск параметров (черновик)](chapters/05_procedury_i_funkcii/05-03_znacheniya_po_umolchaniyu.md)
 - [✏️ § 5.4. `Экспорт` — вся модель видимости (черновик)](chapters/05_procedury_i_funkcii/05-04_eksport.md)
-- [✏️ § 5.5. Чего нет: перегрузка, лямбды, замыкания (черновик)](chapters/05_procedury_i_funkcii/05-05_chego_net.md)
-- [✏️ § 5.6. Обработчики событий: сигнатуру пишете не вы (черновик)](chapters/05_procedury_i_funkcii/05-06_obrabotchiki_sobytiy.md)
+- [✏️ § 5.5. Чего нет у вас — и что при этом есть у платформы (черновик)](chapters/05_procedury_i_funkcii/05-05_chego_net.md)
+- [✏️ § 5.6. Обработчики событий — это хуки (черновик)](chapters/05_procedury_i_funkcii/05-06_obrabotchiki_sobytiy.md)
 - [✏️ § 5.7. Как прочитать чужую процедуру (черновик)](chapters/05_procedury_i_funkcii/05-07_kak_prochitat_chuzhuyu.md)
